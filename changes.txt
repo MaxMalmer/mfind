@@ -1,0 +1,8 @@
+What has changed since the last version of the code:
+
+- getopt has been replaced with getopt_long for better commandline formatting.
+- The commandline is now parsed not backwards and options are instead taken into
+  consideration to arguments.
+- Error handling has been added to all relevant system calls.
+- Comments has been updated.
+- Code is again tested with Helgrind and Valgrind.
